@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+.container-header {
+  background-image: url(../assets/capa.jpg);
+  background-attachment: fixed;
+  min-height: 600px;
+  padding: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  color: #fff;
+  padding: 10px;
+  width: 300px;
+}
+
+h1 {
+  background-color: #000;
+}
+
+h2 {
+  background-color: #f00;
+}
+
+.secao-conteudo {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.secao-conteudo img {
+  width: 200px;
+  height: 250px;
+}
+
+.secao-divulgacao {
+  background-image: url(../assets/img1.jpg);
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  line-height: 30px;
+}
+
+.embreve {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 25px;
+  text-align: center;
+}
